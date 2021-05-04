@@ -1,6 +1,6 @@
 /*
 * The number planets program finds the location of the planet in the
-* solar system. 
+* solar system.
 *
 * @author Cameron Teed
 * @version 1.0
@@ -22,7 +22,7 @@ final class NumberPlanets {
   }
 
   /**
-  * Creates enumeration of the planets
+  * Creates enumeration of the planets.
   *
   * @param
   * @return planetNum
@@ -66,9 +66,9 @@ final class NumberPlanets {
     private int planetNum = 0;
 
     /**
-    * Finds where the planet is located
+    * Finds where the planet is located.
     *
-    * @param enumIndex
+    * @param enumNum
     */
     PlanetsEnum(final int enumNum) {
       // Finds the coresponding number to the planet
@@ -82,7 +82,7 @@ final class NumberPlanets {
   }
 
   /**
-  * Finds the location of the inputted planet in our solar system
+  * Finds the location of the inputted planet in our solar system.
   *
   * @param args
   */
